@@ -1,0 +1,19 @@
+/*
+ * Copyright (c) 2025 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+
+#include "izmir.dtsi"
+
+&kscan0 {
+    col-gpios
+        = <&gpio1  6 GPIO_ACTIVE_HIGH>  // col1
+        , <&gpio1  4 GPIO_ACTIVE_HIGH>  // col2
+        , <&gpio0 11 GPIO_ACTIVE_HIGH>  // col3
+        , <&gpio1  0 GPIO_ACTIVE_HIGH>  // col4
+        , <&gpio0 24 GPIO_ACTIVE_HIGH>  // col5
+        , <&gpio0 22 GPIO_ACTIVE_HIGH>  // col6
+        ;
+};

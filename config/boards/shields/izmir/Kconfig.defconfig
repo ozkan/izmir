@@ -1,17 +1,17 @@
 # Copyright (c) 2025 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_ISTANBUL_LEFT
+if SHIELD_IZMIR_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Istanbul"
+    default "Izmir"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_ISTANBUL_LEFT || SHIELD_ISTANBUL_RIGHT
+if SHIELD_IZMIR_LEFT || SHIELD_IZMIR_RIGHT
 
 config ZMK_SPLIT
     default y

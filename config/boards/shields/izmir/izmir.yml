@@ -1,8 +1,8 @@
 file_format: "1"
-id: istanbul
-name: istanbul
+id: izmir
+name: izmir
 type: shield
-url: https://github.com/ozkan/istanbul-zmk
+url: https://github.com/ozkan/izmir
 requires:
   - pro_micro
 outputs:
@@ -14,5 +14,5 @@ features:
   - encoder 
   - studio
 siblings:
-  - istanbul_left
-  - istanbul_right
+  - izmir_left
+  - izmir_right
